@@ -199,3 +199,14 @@ switch(clubs) {
     console.log(`Primer league`)
 
 }
+let laptops="hp"
+switch(laptops) {
+  case "Macbook":
+    console.log(`Apple product`)
+    break;
+  case "hp":
+    console.log(`hp product`)
+    break;
+  default:
+    console.log(`Other companies`)
+}
