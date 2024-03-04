@@ -1,0 +1,40 @@
+.box{
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  animation-name: boxAnimation;
+  animation-duration: 7s;
+  position: relative;
+}
+@keyframes boxAnimation{
+0%{
+ background-color:green;
+ rotate: 90deg;
+ top: 0;
+ left: 0;
+}
+25%{
+background-color: rgb(0, 4, 255);
+rotate: 90deg;
+top: 0;
+left: 600px;
+}
+50%{
+  background-color: rgb(118, 119, 115);
+  top: 600px;
+  left: 600px;
+  rotate: 90deg;
+}
+75%{
+  background-color: rgb(148, 4, 110);
+  top: 600px;
+  left: 0;
+  rotate: 90deg;
+}
+100%{
+  background-color: rgb(251, 231, 8);
+  top: 0px;
+  left: 0;
+  rotate: 90deg;
+}
+}
