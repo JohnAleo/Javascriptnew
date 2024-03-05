@@ -225,3 +225,19 @@ switch(students) {
   default:
     console.log(`other student`)
 }
+
+
+function step() {
+  console.log(`one step`);
+}
+for (let i = 5; i < 10; i++) {
+  step();
+}
+//
+{
+for(let i=0; i<10; i++) {
+  for(let k=i; k<10; k++){
+    console.log(i,k);
+  }
+}
+}
