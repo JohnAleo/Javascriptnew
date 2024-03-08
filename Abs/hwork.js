@@ -28,7 +28,49 @@
 //console.log(result.length);
 
 // 3-pop (berilgan ma'lumotdan oxiridagi ma'lumotni yoki kiritilgan miqdordagi ma'lu,otni olib tashlaydi)
-let presidents=["Xi","Biden","Putin","Aliyev","Toqaev","Pashinyan","Assad"];
-console.log(presidents);
-console.log(presidents.pop());
-console.log(presidents.pop("Toqaev","Pashinyan","Assad"));
+//let presidents=["Xi","Biden","Putin","Aliyev","Toqaev","Pashinyan","Assad"];
+//let players=["Ronaldo","Messi","Rodrigo","Modrich","Pirlo","Zidane"]
+//console.log(presidents);
+//console.log(presidents.pop());
+//console.log(presidents.pop("Toqaev","Pashinyan","Assad"));
+//console.log(presidents.concat(players).join("#"));
+//console.log(presidents.concat(players).sort());
+//let result=presidents.concat(players).join("#");
+//console.log(result.length)
+
+// 4- shift (berilgan Arrayning boshidan ma'lumotni olib tashlaydi)
+//let teamA=["Jobir","Farrux","Anvar","Salim","Zoxid"];
+//let teamB=["Rajab","Aziz","Jahongir","Temur","Vali","Kamron"];
+//console.log(teamA.shift());
+//console.log(teamA);
+//console.log(teamB.shift());
+//console.log(teamB);
+//console.log(teamA.concat(teamB).sort());
+//let group=(teamA.concat(teamB).sort());
+//console.log(group.shift());
+//console.log(group)
+
+//5-slice (berilgan arraydan ko'rsatilgan indexdan berilgan miqdor qadar ma'lumotlarni oladi va ro'yxatni yana o'zini qoldiradi)
+//let cars=["porsche","pagani","mercedes","honda","mazda","chevrolet","ford","hyundai"];
+//console.log(cars);
+//console.log(cars.splice(2,4));
+//console.log(cars);
+//let sportcars=["ferrari","lamborghini","maseratti","bugatti","bmw"];
+//console.log(cars.concat(sportcars));
+//console.log(cars.concat(sportcars).slice(2.5));
+//let result=cars.concat(sportcars).slice(2.5);
+//console.log(result.sort());
+//console.log(result.join("!"));
+//console.log(result.join("@").length)
+
+// 6-splice(berilgan arraydan ko'rsatilgan indexdan boshlab berilgan miqdor ma'lumotni ro'yxatdan sug'urib oladi va qolgan ma'lumotlarni beradi)
+let instruments=["guitar","piano","violin","do'mbira","doira","nay","nog'ora","bass gitara"];
+let genres=["jazz","pop","rock","rap","estradaa","hip-hop"];
+console.log(instruments);
+console.log(instruments.splice(2,4));
+console.log(instruments);
+console.log(instruments.concat(genres));
+console.log(instruments.concat(genres).sort());
+console.log(instruments);
+console.log(instruments.push("tor"));
+console.log(instruments);
